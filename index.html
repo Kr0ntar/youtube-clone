@@ -11,14 +11,14 @@
             <div id="container-nav">
                 <div id="menu-left">
                     <span><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></span>&nbsp;
-                    <span id="icon-link"><a href="#"><img src="img/youtube-icon.jpg"></a></span>
+                    <span id="icon-link"><a href="#"><img src="img/youtube-icon.jpg" alt="youtube-icon"></a></span>
                     <form method="get" id="search-form">
                         <input type="text" id="search-bar" placeholder="Search">
                         <button id="search-btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
                     </form>
                 </div>
                 <div id="menu-right">
-                    <span><a href="#"><img src="img/upload-icon.jpg"></a></span>
+                    <span><a href="#"><img src="img/upload-icon.jpg" alt="upload"></a></span>
                     <input type="submit" value="Sign In" id="sign-in">
                 </div>
             </div>
@@ -29,12 +29,41 @@
         
         <div id="body-container">
             <div id="video-container">
-                <iframe height="480" src="https://www.youtube.com/embed/8GbnMSGXEyE?autoplay=1&cc_load_policy=1" frameborder="0" allowfullscreen autoplay></iframe>
+                <!-- <iframe height="480" src="https://www.youtube.com/embed/8GbnMSGXEyE?autoplay=1&cc_load_policy=1" frameborder="0" allowfullscreen autoplay></iframe> -->
+                <iframe height="480" src="https://www.youtube.com/embed/8GbnMSGXEyE" frameborder="0" allowfullscreen></iframe>
                 <div id="video-title">
-                    <div><h1>Hellsing Ultimate Luke Valentine vs Alucard BD 1080p [ENG DUB] - [Ultimate Quality]</h1></div>
+                    <div id="title-div"><h1>Hellsing Ultimate Luke Valentine vs Alucard BD 1080p [ENG DUB] - [Ultimate Quality]</h1></div>
+                    <div id="video-owner">
+                        <img src="img/user 01.jpg" height="48" width="48" alt="owner">
+                        <div id="name-subscribe">
+                            <p><a href="#">Queen Bitch KaNoMiko</a></p>
+                            <button><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>&nbsp;Subscribe</button>
+                            <span>4.1K</span>
+                        </div>
+                        <div id="views">
+                            1,034,265 views
+                        </div>                    
+                    </div>
+                    <div id="action-icons">
+                        <div id="left-icons">
+                            <button class="button-icons plus"><img src="img/plus-icon.jpg" alt="plus">&nbsp;<span>Add to</span></button>
+                            <button class="button-icons share"><img src="img/share-icon.jpg" alt="share">&nbsp;&nbsp;<span>Share</span></button>
+                            <button class="button-icons more"><img src="img/more-icon.jpg" alt="more">&nbsp;<span>More</span></button>
+                        </div>
+                        <div id="right-icons">
+                            <button class="button-icons like"><img src="img/like-icon.jpg" alt="like">&nbsp;&nbsp;<span>7,101</span></button>
+                            <button class="button-icons unlike"><img src="img/unlike-icon.jpg" alt="unlike">&nbsp;<span>191</span></button>
+                        </div>
+                        <div class="clear"></div>    
+                    </div>
                 </div>
-                <div id="video-owner">
-                    
+                <div id="video-description">
+                    <div id="description-text">
+                        <strong>Published on May 11, 2013</strong><br>
+                        <span>Since this was nowhere to be found on YouTube with this quality, here it is!<br>
+                        And no, I won't upload any other fights (Edit: Disregard that). The only reason I'm uploading this is because it's from episode 2, and thus, won't be much of a spoiler (If any at all). I will only be using this as a way to promote Hellsing Ultimate to friends and acquaintances.</span>
+                    </div>
+                    <button id="show-more">SHOW MORE</button>
                 </div>
             </div>
             
