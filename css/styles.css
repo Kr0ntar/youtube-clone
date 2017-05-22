@@ -48,6 +48,10 @@ header {
     font-size: 14px;
 }
 
+#youtube-icon:hover .fa-bars {
+    color: #333;
+}
+
 #search-form {
     display: inline-block;
     height: 64%;
