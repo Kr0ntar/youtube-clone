@@ -277,7 +277,6 @@ header {
     text-align: right;
     font-size: 19px;
     color: #666;
-    /*white-space: nowrap;*/
     border-bottom: 2px solid #167ac6;
     padding-bottom: 5px;
     margin-top: 29px;
@@ -796,7 +795,6 @@ header {
     margin-top: -34px;
     margin-left: 12px;
     border-radius: 2px;
-    /*border-color: #d3d3d3;*/
     background: #f8f8f8;
     color: #333;
     display: inline-block;
@@ -1052,14 +1050,12 @@ header {
 
 @media only screen and (max-width: 767px) {
     #search-bar {
-        /*width: 450px;*/
         width: 50%;
     }
 }
 
 @media only screen and (max-width: 717px) {
     #search-form {
-        /*width: 450px;*/
         left: 150px;
     }
 
@@ -1117,7 +1113,6 @@ header {
     #container-nav {
         padding-left: auto;
         padding-right: auto;
-        border: 1px solid red;
     }
 
     #fluid-nav {
@@ -1126,7 +1121,6 @@ header {
         margin: auto auto;
         padding-left: 1%;
         padding-right: 1%;
-        border: 1px solid green;
     }
 
     #menu-left {
